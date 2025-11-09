@@ -17,44 +17,44 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
 
     exams = [
-      ExamModel("Data Structures", DateTime(2026, 1, 10, 9, 0), [
+      ExamModel(name: "Data Structures",dateTime:  DateTime(2026, 1, 10, 9, 0),examRooms:  [
         "Room 101",
         "Room 102",
       ]),
-      ExamModel("Algorithms", DateTime(2025, 1, 13, 14, 0), [
+      ExamModel(name: "Algorithms", dateTime: DateTime(2025, 1, 13, 14, 0),examRooms:  [
         "Room 201",
         "Room 203",
       ]),
-      ExamModel("Database Systems", DateTime(2026, 1, 15, 10, 0), [
+      ExamModel(name: "Database Systems",dateTime: DateTime(2026, 1, 15, 10, 0),examRooms:  [
         "Lab A",
         "Lab B",
       ]),
-      ExamModel("Operating Systems", DateTime(2025, 1, 17, 9, 0), ["Room 105"]),
-      ExamModel("Computer Networks", DateTime.now().add(Duration(minutes: 15)), [
+      ExamModel(name: "Operating Systems",dateTime: DateTime(2025, 1, 17, 9, 0),examRooms:  ["Room 105"]),
+      ExamModel(name: "Computer Networks",dateTime: DateTime.now().add(Duration(minutes: 15)),examRooms:  [
         "Room 207",
         "Room 208",
       ]),
-      ExamModel("Artificial Intelligence", DateTime(2025, 1, 22, 9, 0), [
+      ExamModel(name: "Artificial Intelligence",dateTime: DateTime(2025, 1, 22, 9, 0),examRooms:  [
         "Room 110",
       ]),
-      ExamModel("Machine Learning", DateTime(2025, 1, 25, 11, 0), ["Lab C"]),
-      ExamModel("Software Engineering", DateTime(2025, 1, 27, 10, 0), [
+      ExamModel(name: "Machine Learning",dateTime: DateTime(2025, 1, 25, 11, 0),examRooms:  ["Lab C"]),
+      ExamModel(name: "Software Engineering",dateTime: DateTime(2025, 1, 27, 10, 0),examRooms:  [
         "Room 202",
         "Room 204",
       ]),
-      ExamModel("Web Development", DateTime(2025, 1, 29, 15, 0), ["Lab D"]),
-      ExamModel("Computer Architecture", DateTime(2025, 2, 2, 9, 0), [
+      ExamModel(name: "Web Development",dateTime: DateTime(2025, 1, 29, 15, 0),examRooms:  ["Lab D"]),
+      ExamModel(name: "Computer Architecture",dateTime: DateTime(2025, 2, 2, 9, 0),examRooms:  [
         "Room 301",
       ]),
-      ExamModel("Cyber Security", DateTime(2025, 2, 4, 14, 0), ["Room 107"]),
-      ExamModel("Compiler Design", DateTime(2025, 2, 6, 10, 30), ["Room 206"]),
-      ExamModel("Human-Computer Interaction", DateTime(2025, 2, 8, 9, 0), [
+      ExamModel(name: "Cyber Security",dateTime: DateTime(2025, 2, 4, 14, 0),examRooms:  ["Room 107"]),
+      ExamModel(name: "Compiler Design",dateTime: DateTime(2025, 2, 6, 10, 30),examRooms:  ["Room 206"]),
+      ExamModel(name: "Human-Computer Interaction",dateTime: DateTime(2025, 2, 8, 9, 0),examRooms:  [
         "Lab UX1",
       ]),
-      ExamModel("Parallel Computing", DateTime(2025, 2, 10, 13, 0), [
+      ExamModel(name: "Parallel Computing",dateTime: DateTime(2025, 2, 10, 13, 0),examRooms:  [
         "Room 309",
       ]),
-      ExamModel("Cloud Computing", DateTime(2025, 2, 12, 11, 0), [
+      ExamModel(name: "Cloud Computing",dateTime: DateTime(2025, 2, 12, 11, 0),examRooms:  [
         "Room 401",
         "Room 402",
       ]),

@@ -5,7 +5,7 @@ class ExamModel{
   DateTime dateTime;
   List<String> examRooms;
 
-  ExamModel(this.name, this.dateTime, this.examRooms);
+  ExamModel({required this.name,required this.dateTime,required this.examRooms});
 
 
   @override
